@@ -9,13 +9,16 @@ CS 340 - 70
 Assignment 3 Part II
 
 
-Always pick first element as pivot.
 
-Always pick last element as pivot (implemented below)
+Important for Quicksort:
 
-Pick a random element as pivot.
+1. Always pick first element as pivot.
 
-Pick median as pivot.
+2. Always pick last element as pivot (implemented below)
+
+3. Pick a random element as pivot.
+
+4. Pick median as pivot.
 
 Here is the solution of Quick Sort program.
 
