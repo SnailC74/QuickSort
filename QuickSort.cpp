@@ -4,8 +4,10 @@ int partition(int *a, int start, int end)
 {
   int pivot = a[end];
   int pivotIndex = start;
+  // pivotIndex represents the pivot value index.
   int temp;
   
+  // To check if array value is less than the pivot, swap to left side.
   for(int i = start; i < end; i++) {
     if (a[i] <= pivot) {
       temp = a[i];
@@ -14,6 +16,7 @@ int partition(int *a, int start, int end)
       pivotIndex++;
     }
   }
+  //swap the value of pivot and pivotIndex
   temp = a[end];
   a[end] = a[pivotIndex];
   a[pivotIndex] = temp;
