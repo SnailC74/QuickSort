@@ -33,10 +33,10 @@ void QuickSort(int *a, int start, int end)
 
 int main()
 {
-  int n, a[];
+  int n, a[n];
   
   cout << "Please enter the number of elements: ";
-  cihn >> n;
+  cin >> n;
   
   cout << "Please enter the array elements: ";
   for(int i = 0; i < n; i++) {
@@ -47,7 +47,8 @@ int main()
   
   cout << "After quick sort the array is: " << endl;
   for(int i = 0; i < n; i++) {
-    cout <<  a[i];
+    cout <<  a[i] << " ";
   }
+  cout << endl;
   return 0;
 }
